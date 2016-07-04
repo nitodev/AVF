@@ -1,0 +1,185 @@
+
+7/4/2016, 3:31:41 PM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.11.5
+  Architecture                = 64bit
+  # CPUs                      = 8
+  Memory                      = 17179869184
+
+Node.js
+  Node.js Version             = 0.12.7
+  npm Version                 = 2.11.3
+
+Titanium CLI
+  CLI Version                 = 5.0.6
+
+Titanium SDK
+  SDK Version                 = 5.2.2.GA
+  SDK Path                    = /Users/nito/Library/Application Support/Titanium/mobilesdk/osx/5.2.2.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/nito/.appcelerator/install/5.2.2/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.2.2.GA --project-dir /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1 --target simulator --ios-version 9.3 --device-family universal --sim-type iphone --sim-version 9.3 --device-id 0EA47F9E-896A-4921-B863-7CAEC793DA2B --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 60924 --config-file /var/folders/gx/z240zdfs75ndtvzp57wqld3r0000gn/T/build-1467664299905.json --no-banner --project-dir /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID 0EA47F9E-896A-4921-B863-7CAEC793DA2B
+[TRACE]  [ioslib] Found iOS Simulator UDID 0EA47F9E-896A-4921-B863-7CAEC793DA2B
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6s
+[TRACE]  [ioslib]   UDID    = 0EA47F9E-896A-4921-B863-7CAEC793DA2B
+[TRACE]  [ioslib]   iOS     = 9.3
+[TRACE]  [ioslib] Autoselected Xcode: 7.3.1
+[DEBUG]  Detecting modules in /Users/nito/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: facebook 5.0.0 @ /Users/nito/Library/Application Support/Titanium/modules/android/facebook/5.0.0
+[DEBUG]  Detected android module: ti.cloudpush 3.4.1 @ /Users/nito/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.1
+[DEBUG]  Detected android module: ti.map 2.3.6 @ /Users/nito/Library/Application Support/Titanium/modules/android/ti.map/2.3.6
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.10 @ /Users/nito/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.10
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.0.0 @ /Users/nito/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.0.0
+[DEBUG]  Detected iphone module: facebook 5.0.1 @ /Users/nito/Library/Application Support/Titanium/modules/iphone/facebook/5.0.1
+[DEBUG]  Detected iphone module: ti.coremotion 2.0.0 @ /Users/nito/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.0
+[DEBUG]  Detected iphone module: ti.map 2.5.2 @ /Users/nito/Library/Application Support/Titanium/modules/iphone/ti.map/2.5.2
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.5 @ /Users/nito/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.5
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/nito/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/nito/Library/Application Support/Titanium/mobilesdk/osx/5.2.2.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 9.3
+[INFO]   Building for iOS Simulator: iPhone 6s
+[DEBUG]  UDID: 0EA47F9E-896A-4921-B863-7CAEC793DA2B
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 9.3
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[TRACE]  offline build file /var/folders/gx/z240zdfs75ndtvzp57wqld3r0000gn/T/build-bf8c39bf60389c509f33a8ae7bf0e0a410d64437.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 75166.755 sec ago
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  No native module libraries to add
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/AVF_WK1.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/AVF_WK1.entitlements
+[INFO]   Creating Info.plist
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/AVF_WK1_Prefix.pch
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/AVF_WK1.xcodeproj/xcshareddata/xcschemes/AVF_WK1.xcscheme
+[INFO]   Installing default LaunchScreen.storyboard
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/LaunchScreen.storyboard
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app/debugger.plist
+[DEBUG]  Skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 29x29 app icon: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png
+[TRACE]  Found generated 58x58 app icon: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 40x40 app icon: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png
+[TRACE]  Found generated 80x80 app icon: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  Found generated 76x76 app icon: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png
+[TRACE]  Found generated 152x152 app icon: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png
+[TRACE]  Found generated 167x167 app icon: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-83.5@2x.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch logo image set
+[TRACE]  Found generated 320x320 launch logo: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~iphone.png
+[TRACE]  Found generated 374x374 launch logo: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~iphone.png
+[TRACE]  Found generated 621x621 launch logo: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@3x~iphone.png
+[TRACE]  Found generated 384x384 launch logo: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~ipad.png
+[TRACE]  Found generated 1024x1024 launch logo: /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~ipad.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchLogo.imageset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   App thinning disabled, skipping asset image sets
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app/KS_nav_ui.png
+[DEBUG]  Overwriting /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/Resources/KS_nav_ui.png => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app/KS_nav_views.png
+[DEBUG]  Overwriting /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/Resources/KS_nav_views.png => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[DEBUG]  Overwriting /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/Resources/iphone/Default-568h@2x.png => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[DEBUG]  Overwriting /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/Resources/iphone/Default-667h@2x.png => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[DEBUG]  Overwriting /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/Resources/iphone/Default-Landscape-736h@3x.png => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[DEBUG]  Overwriting /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/Resources/iphone/Default-Landscape.png => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[DEBUG]  Overwriting /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/Resources/iphone/Default-Landscape@2x.png => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[DEBUG]  Overwriting /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/Resources/iphone/Default-Portrait-736h@3x.png => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[DEBUG]  Overwriting /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/Resources/iphone/Default-Portrait.png => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[DEBUG]  Overwriting /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/Resources/iphone/Default-Portrait@2x.png => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Overwriting /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/Resources/iphone/Default@2x.png => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Overwriting /var/folders/gx/z240zdfs75ndtvzp57wqld3r0000gn/T/liveview.js => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app/app.js
+[DEBUG]  Overwriting /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/Resources/data.js => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app/data.js
+[DEBUG]  Overwriting /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/Resources/geo.js => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app/geo.js
+[DEBUG]  Overwriting /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/Resources/ui.js => /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app/ui.js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 971ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6s
+[TRACE]  [ioslib]   UDID    = 0EA47F9E-896A-4921-B863-7CAEC793DA2B
+[TRACE]  [ioslib]   iOS     = 9.3
+[TRACE]  [ioslib] Autoselected Xcode: 7.3.1
+[TRACE]  [ioslib] iPhone 6s Simulator already running with the correct udid
+[TRACE]  [ioslib] Tailing iPhone 6s Simulator system log: /Users/nito/Library/Logs/CoreSimulator/0EA47F9E-896A-4921-B863-7CAEC793DA2B/system.log
+[TRACE]  [ioslib] Running: osascript "/Users/nito/Library/Application Support/Titanium/mobilesdk/osx/5.2.2.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPhone 6s Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 0EA47F9E-896A-4921-B863-7CAEC793DA2B /Users/nito/Desktop/Full Sail/Semester_2/Advanced Visual Frameworks/AVF_WK1/build/iphone/build/Products/Debug-iphonesimulator/AVF_WK1.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 0EA47F9E-896A-4921-B863-7CAEC793DA2B com.nitodev.avfwk1
+[TRACE]  [ioslib] App launched
+[TRACE]  [ioslib] Found application log file: /Users/nito/Library/Developer/CoreSimulator/Devices/0EA47F9E-896A-4921-B863-7CAEC793DA2B/data/Containers/Data/Application/3279B2C4-22B3-4420-80A7-808A06B85C59/Documents/c0f3c30e-f584-427b-9ccc-836bd1606aa5.log
+[TRACE]  [AVF_WK1] assertion failed: 15F34 13E230: libxpc.dylib + 57882 [66C28065-C9DB-3C8E-926F-5A40210A6D1B]: 0x7d
